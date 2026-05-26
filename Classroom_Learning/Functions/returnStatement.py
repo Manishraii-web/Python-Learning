@@ -9,9 +9,8 @@
 
 #Return ends the function immediately
 def check_age(age):
-    
-    age = 24
     if age < 0:
-        return "Minor"
+        return "Invalid age"
     if age < 18:
-         return "Adult"
+        return "Minor"
+    return "Adult"
