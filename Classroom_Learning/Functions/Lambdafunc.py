@@ -9,7 +9,7 @@ students = [("Alice",92),("Bob",78),("Manish ",99)]
 ranked = sorted(students,key=lambda s: s[1], reverse=True)
 print(ranked)
 
-#lambda cwith map() and filter()
+#lambda with map() and filter()
 nums = [1,2,3,4,5,6,7,8,9,10]
 doubled = list(map(lambda x: x*2, nums))
 evens = list(filter(lambda x: x%2 == 0, nums))
