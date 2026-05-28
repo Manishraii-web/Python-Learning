@@ -2,7 +2,7 @@ total_bills = 3750.00
 number_of_people = 5
 paid_extra = True
 discount = 10
-name = "Sumit"
+name = "Manish Rai"
 
 total = total_bills - total_bills * discount / 100
 
