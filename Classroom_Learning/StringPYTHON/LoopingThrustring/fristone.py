@@ -5,4 +5,8 @@ for ch in text:
 
 #enum
 for i , ch in enumerate(text):
-    print(i, ch)
+    print(f"{i}: {ch}", end=' ')
+
+#comprehension
+vowels = [ch for ch in text if ch in 'aeiouAEIOU']
+print("\nVowels in the text:", vowels)
