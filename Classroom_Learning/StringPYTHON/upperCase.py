@@ -12,3 +12,6 @@ nums  =["a,b,c"]
 newnums = nums[0].split(",")
 print(newnums)
 
+#count occureance
+fruit = "banana"
+print(fruit.count("a"))
