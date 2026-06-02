@@ -17,4 +17,5 @@ num = 123
 num_str = str(num)
 print(num_str)
 
-#
+#lchar from asch
+print(chr(97))
