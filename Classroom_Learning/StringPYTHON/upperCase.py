@@ -15,3 +15,7 @@ print(newnums)
 #count occureance
 fruit = "banana"
 print(fruit.count("a"))
+
+#.lower()
+name2 = "MANISH SAMA"
+print(name2.lower())    
