@@ -6,3 +6,4 @@ text = 'Hello World'
  print(text.isupper())  # False, because of lowercase letters
  print(text.isspace())  # False, because it contains letters and space
  print(text.startswith('Hello'))  # True
+ print(text.endswith('World'))  # True
